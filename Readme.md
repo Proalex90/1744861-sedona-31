@@ -1,6 +1,6 @@
 # Личный проект «Седона»
 
-* Студент: [Александр](https://up.htmlacademy.ru/htmlcss/31/user/1744861).
+* Студент: [Александр Кучер](https://up.htmlacademy.ru/htmlcss/31/user/1744861).
 * Наставник: [Иван Кондерев](https://htmlacademy.ru/profile/id1033347).
 
 ---
