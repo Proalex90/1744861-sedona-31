@@ -1,186 +1,231 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="utf-8">
-        <title>Каталог</title>
-    </head>
-    <body>
-          <header>
+  <head>
+    <meta charset="utf-8" />
+    <title>Забронирвать гостиницу</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html" title="На главную"
+        ><img
+          src="https://via.placeholder.com/138x70"
+          width="138"
+          height="70"
+          alt=""
+      /></a>
       <nav>
-        <a href="index.html" title="На главную"><img src="https://via.placeholder.com/138x70" width="138" height="70" alt=""></a> <!-- 3.14. Логотип — это ссылка на главную страницу. -->
         <ul>
           <li><a href="#">ИНФОРМАЦИЯ</a></li>
           <li><a href="#">ФОТО И ВИДЕО</a></li>
           <li><a href="#">КАРТА ШТАТА</a></li>
-          <li><a href="catalog.html" title="Забронировать гостиницу" >ГОСТИНИЦЫ</a></li>
+          <li>
+            <a href="catalog.html" title="Забронировать гостиницу">ГОСТИНИЦЫ</a>
+          </li>
         </ul>
       </nav>
     </header>
     <main>
-        <section>
-            <h1>Забронирвать гостиницу</h1>
-            <form method="get" action="https://echo.htmlacademy.ru">
-                <fieldset>
-                    <legend>Инфраструктура</legend>
-                    <ul>
-                        <li>
-                            <input type="checkbox" id="pool" name="pool" checked>
-                            <label for="pool">Бассейн</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="parking" name="parking">
-                            <label for="parking">Парковка</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="wifi" name="wifi">
-                            <label for="wifi">Wi-Fi</label>
-                        </li>
-                    </ul>
-                </fieldset>
-                <fieldset>
-                    <legend>Тип жилья</legend>
-                         <ul>
-                            <li>
-                                <input type="checkbox" id="hotel" name="hotel" checked>
-                                <label for="hotel">Гостиница</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="motel" name="motel" checked>
-                                <label for="motel">Мотель</label>
-                            </li>
-                            <li>
-                                <input type="checkbox" id="apartments" name="apartments" checked>
-                                <label for="apartments">Апартаменты</label>
-                            </li>
-                        </ul>
-                </fieldset>
-                <h2>Стоимость в сутки,<span>&#8381;</span></h2><!-- Я так понимаю тут картинка рубля? Такого символа в юникоде не нашел, хотя в интеренете есть. -->
-                <input type="text" name="price_from" placeholder="От 0">
-                <input type="text" name="price_to" placeholder="До 3000">
-                    <p><input type="range"></p> <!-- Я так пониамю 2 ползунка и изменение значений в полях input делается путем JS,   -->
-                    <p>
-                        <button type="submit"> Показать</button>
-                    </p>
-            </form>
-
-        </section>
-        <section>
-            <h3>Результат поиска</h3>
-            <p>Найдено: 3 </p>
-            <p>Сортировка:</p>
-            <ul> 
-                <li>
-                    <a href="#">По цене</a>
-                </li>
-                <li>
-                    <a href="#">По типу</a>
-                </li>
-                <li>
-                    <a href="#">По рейтингу</a>
-                </li>
-            </ul>
-            <h2>Список гостиниц</h2>
-                <ul>
-                    <li>
-                    <a href="#">
-                        <img src="https://via.placeholder.com/135x90" width="135" height="90" alt="">
-                        <h3>Amara Resort & Spa</h3>
-                    </a>
-                    <p>Гостиница</p>
-                    <p>от 4000</p>
-                    <button type="button">Подробнее</button>
-                    <button type="button">Забронировать </button>
-                    <ul>
-                        <li>
-                            <p>
-                                <img src="https://via.placeholder.com/19x17" width="19" height="17" alt=""> <!-- Звезды рейтинга -->
-                            </p>
-                        </li>
-                        <li>
-                            <p>Рейтинг: 8,5</p>
-                        </li>
-                    </ul>
-                    <p>
-
-                    </p>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                    <a href="#">
-                        <img src="https://via.placeholder.com/135x90" width="135" height="90" alt="">
-                        <h3>Desert Quail Inn</h3>
-                    </a>
-                    <p>Мотель</p>
-                    <p>от 3000</p>
-                    <button type="button">Подробнее</button>
-                    <button type="button">Забронировать </button>
-                    <ul>
-                        <li>
-                            <p>
-                                <img src="https://via.placeholder.com/19x17" width="19" height="17" alt="" > <!-- Звезды рейтинга -->
-                            </p>
-                        </li>
-                        <li>
-                            <p>Рейтинг: 8,9</p>
-                        </li>
-                    </ul>
-                    <p>
-
-                    </p>
-                    </li>
-                </ul>
-                <ul>
-                    <li>
-                    <a href="#">
-                        <img src="https://via.placeholder.com/135x90" width="135" height="90" alt="">
-                        <h3>Villas at Poco Diablo</h3>
-                    </a>
-                    <p>Апартаменты</p>
-                    <p>от 2000</p>
-                    <button type="button">Подробнее</button>
-                    <button type="button">Забронировать </button>
-                    <ul>
-                        <li>
-                            <p>
-                                <img src="https://via.placeholder.com/19x17" width="19" height="17" alt=""> <!-- Звезды рейтинга -->
-                            </p>
-                        </li>
-                        <li>
-                            <p>Рейтинг: 9,2</p>
-                        </li>
-                    </ul>
-                    <p>
-
-                    </p>
-                    </li>
-                </ul>
-        </section>
-    </main>
-    <footer>
-        <section>
-          <h2>Контакты</h2>
-          <p>#VISITSEDONA</p>
-          <a href="tel:+78005558628"> +7 800 555-86-28</a>
-        </section>
-        <section>
-          <h2>Давайте дружить</h2>
+      <section>
+        <h1>Забронировать гостиницу в городе Седона</h1>
+        <form method="get" action="https://echo.htmlacademy.ru">
+          <fieldset>
+            <legend>Инфраструктура</legend>
             <ul>
               <li>
-                <a href="#">Твиттер</a>
+                <input type="checkbox" id="pool" name="pool" checked />
+                <label for="pool">Бассейн</label>
               </li>
               <li>
-                <a href="#">Фейсбук</a>
+                <input type="checkbox" id="parking" name="parking" />
+                <label for="parking">Парковка</label>
               </li>
               <li>
-                <a href="#">Youtube</a>
+                <input type="checkbox" id="wifi" name="wifi" />
+                <label for="wifi">Wi-Fi</label>
               </li>
             </ul>
-          <p>
-            <!-- 3.8. Логотип Академии в подвале ведёт на лендинг интенсива «HTML и CSS. Профессиональная вёрстка сайтов». -->
-            <a href="https://htmlacademy.ru/intensive/htmlcss"><img src="https://via.placeholder.com/115x33" width="115" height="33" alt="HTML и CSS. Профессиональная вёрстка сайтов"></a>
-          </p>
-        </section>
-      </footer>
-    </body>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья</legend>
+            <ul>
+              <li>
+                <input type="checkbox" id="hotel" name="hotel" checked />
+                <label for="hotel">Гостиница</label>
+              </li>
+              <li>
+                <input type="checkbox" id="motel" name="motel" checked />
+                <label for="motel">Мотель</label>
+              </li>
+              <li>
+                <input
+                  type="checkbox"
+                  id="apartments"
+                  name="apartments"
+                  checked
+                />
+                <label for="apartments">Апартаменты</label>
+              </li>
+            </ul>
+          </fieldset>
+          <h2>Стоимость в сутки,<span>&#8381;</span></h2>
+          <!-- Я так понимаю тут картинка рубля? Такого символа в юникоде не нашел, хотя в интеренете есть. -->
+          <input type="text" name="price_from" placeholder="От 0" />
+          <input type="text" name="price_to" placeholder="До 3000" />
+          <p><input type="range" /></p>
+          <!-- Я так пониамю 2 ползунка и изменение значений в полях input делается путем JS,   -->
+          <p><button type="submit">Показать</button></p>
+        </form>
+      </section>
+      <section>
+        <h3>Результат поиска</h3>
+        <p>Найдено: 3</p>
+        <p>Сортировка:</p>
+        <ul>
+          <li>
+            <a href="#">По цене</a>
+          </li>
+          <li>
+            <a href="#">По типу</a>
+          </li>
+          <li>
+            <a href="#">По рейтингу</a>
+          </li>
+        </ul>
+        <h2>Список гостиниц</h2>
+        <ul>
+          <li>
+            <a href="#">
+              <img
+                src="https://via.placeholder.com/135x90"
+                width="135"
+                height="90"
+                alt=""
+              />
+              <h3>Amara Resort & Spa</h3>
+            </a>
+            <p>Гостиница</p>
+            <p>от 4000</p>
+            <button type="button">Подробнее</button>
+            <button type="button">Забронировать</button>
+            <ul>
+              <li>
+                <p>
+                  <img
+                    src="https://via.placeholder.com/19x17"
+                    width="19"
+                    height="17"
+                    alt=""
+                  />
+                  <!-- Звезды рейтинга -->
+                </p>
+              </li>
+              <li>
+                <p>Рейтинг: 8,5</p>
+              </li>
+            </ul>
+            <p></p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">
+              <img
+                src="https://via.placeholder.com/135x90"
+                width="135"
+                height="90"
+                alt=""
+              />
+              <h3>Desert Quail Inn</h3>
+            </a>
+            <p>Мотель</p>
+            <p>от 3000</p>
+            <button type="button">Подробнее</button>
+            <button type="button">Забронировать</button>
+            <ul>
+              <li>
+                <p>
+                  <img
+                    src="https://via.placeholder.com/19x17"
+                    width="19"
+                    height="17"
+                    alt=""
+                  />
+                  <!-- Звезды рейтинга -->
+                </p>
+              </li>
+              <li>
+                <p>Рейтинг: 8,9</p>
+              </li>
+            </ul>
+            <p></p>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <a href="#">
+              <img
+                src="https://via.placeholder.com/135x90"
+                width="135"
+                height="90"
+                alt=""
+              />
+              <h3>Villas at Poco Diablo</h3>
+            </a>
+            <p>Апартаменты</p>
+            <p>от 2000</p>
+            <button type="button">Подробнее</button>
+            <button type="button">Забронировать</button>
+            <ul>
+              <li>
+                <p>
+                  <img
+                    src="https://via.placeholder.com/19x17"
+                    width="19"
+                    height="17"
+                    alt=""
+                  />
+                  <!-- Звезды рейтинга -->
+                </p>
+              </li>
+              <li>
+                <p>Рейтинг: 9,2</p>
+              </li>
+            </ul>
+            <p></p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <section>
+        <h2>Контакты</h2>
+        <p>#VISITSEDONA</p>
+        <a href="tel:+78005558628"> +7 800 555-86-28</a>
+      </section>
+      <section>
+        <h2>Наш сервис по подбору жилья в городе Седона в социальных сетях</h2>
+        <ul>
+          <li>
+            <a href="#">Твиттер</a>
+          </li>
+          <li>
+            <a href="#">Фейсбук</a>
+          </li>
+          <li>
+            <a href="#">Youtube</a>
+          </li>
+        </ul>
+        <p>
+          <!-- 3.8. Логотип Академии в подвале ведёт на лендинг интенсива «HTML и CSS. Профессиональная вёрстка сайтов». -->
+          <a href="https://htmlacademy.ru/intensive/htmlcss"
+            ><img
+              src="https://via.placeholder.com/115x33"
+              width="115"
+              height="33"
+              alt="HTML и CSS. Профессиональная вёрстка сайтов"
+          /></a>
+        </p>
+      </section>
+    </footer>
+  </body>
 </html>
