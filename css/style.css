@@ -21,10 +21,12 @@
   background-color: var(--basic-white);
   box-shadow: 0px 5px 15px var(--box-shadow);
 }
+
 .nav__list {
   list-style: none;
   color: var(--basic-black);
 }
+
 .nav__link {
   line-height: 26px;
   font-weight: 700;
@@ -33,113 +35,135 @@
   line-height: 26px;
   font-size: 14px;
 }
+
 .nav__link:hover,
 .nav__link:focus {
   color: var(--basic-blue);
 }
+
 .nav__link:active {
   color: var(--basic-black);
   opacity: 0.3;
 }
+
 .about__title {
   visibility: hidden;
 }
+
 .about__text {
   line-height: 26px;
   font-size: 21px;
   font-weight: 700;
 }
-.features {
-}
+
 .features__main-title {
   visibility: hidden;
 }
+
 .features__text {
-  font-size: inherit;
   line-height: 21px;
   color: var(--basic-lite-black);
 }
+
 .features__container .features__text {
   background: var(--basic-blue);
   color: var(--basic-white);
 }
+
 .features__title {
   font-size: 21px;
   line-height: 21px;
   font-weight: 700;
 }
+
 .dignity__list {
   list-style: none;
 }
+
 .dignity__subtitle {
   font-size: 21px;
   font-weight: 700;
   line-height: 21px;
 }
+
 .dignity__text {
   color: var(--basic-lite-black);
 }
+
 /* .dignit-icon__home{
   background: url("../img/index/icon-home.svg") no-repeat ;
   background-size: 72px 72px;
 } */
-.features-list__list {
+
+.features__list {
   list-style: none;
 }
 
-.features-list__title {
+.list__title {
   font-size: 21px;
   font-weight: 700;
   line-height: 21px;
 }
-.features-list__text {
+
+.list__text {
   color: var(--basic-lite-black);
 }
+
 .reservation__text-title {
   font-size: 30px;
   font-weight: 700;
   line-height: 24px;
 }
+
 .reservation__text {
   line-height: 24px;
 }
+
 .reservation__button {
   background-color: var(--basic-brown);
   color: var(--basic-white);
   text-transform: uppercase;
   padding: 30px 125px;
 }
+
 .reservation__button:focus,
 .reservation__button:hover {
   background-color: #604e43;
 }
+
 .reservation__button:active {
   background: #503e33;
 }
-.footer-contacts {
+
+.footer__contacts {
   color: var(--basic-black);
   font-size: 21px;
   font-weight: 700;
   line-height: 26px;
 }
-.footer-contacts__phone {
+
+.contacts__phone {
   text-decoration: none;
   color: var(--basic-black);
 }
-.footer-social__list {
+
+.social__list {
   list-style: none;
 }
-.footer-social__button {
+
+.social__button {
   background: var(--basic-blue);
   padding: 10px;
 }
-.footer-social__button:focus,
-.footer-social__button:hover {
+.social__button:focus,
+.social__button:hover {
   background: #669ec0;
 }
-.footer-social__button:active {
+
+.social__button:active {
   background: #5496bd;
 }
+
 /* .fb{
   background: url(../img/fb-icon.svg) no-repeat;
 }
@@ -150,3 +174,17 @@
   background: url(../img/youtube.svg) no-repeat;
 
 } */
+.copyright__button path:focus,
+.copyright__button path:hover{
+  fill: var(--basic-blue);
+
+}
+
+.copyright__button path:active{
+fill: #BDBBBC;
+;
+}
+
+.copyright__text{
+  line-height: 26px;
+}
