@@ -2,6 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
@@ -42,7 +43,7 @@
         </ul>
       </nav>
     </header>
-    <main>
+    <main class="page">
       <section class="about">
         <h1 class="about__title">Поиск и бронь жилья в городе Седона</h1>
         <p class="about__text">
@@ -56,8 +57,8 @@
         </p>
         <div class="features__container">
           <h3 class="features__subtitle">НАСТОЯЩИЙ ГОРОДОК</h3>
+          <p class="features__number">-№1-</p>
           <p class="features__text">
-            -№1-<br />
             Седона — не аттракцион для туристов, там течёт своя жизнь
           </p>
           <img
@@ -115,8 +116,8 @@
         <section class="features">
           <div class="features__container">
             <h3 class="features__subtitle">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
+            <p class="features__number">-№2-</p>
             <p class="features__text">
-              -№2- <br />
               Да, по нему можно пройти! Если конечно вы осмелитесь
             </p>
             <img
@@ -131,21 +132,21 @@
         <ul class="features__list list">
           <li class="list__item">
             <h3 class="list__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
-            <p class="list__text">-№3-</p>
+            <p class="list__number">-№3-</p>
             <p class="list__text">
               Все достопримечательности находятся очень близко
             </p>
           </li>
           <li class="list__item">
             <h3 class="list__title">КРАСИВАЯ ДОРОГА</h3>
-            <p class="list__text">-№4-</p>
+            <p class="list__number">-№4-</p>
             <p class="list__text">
               Ехать в седону из лас-вегаса совсем не скучно!
             </p>
           </li>
           <li class="list__item">
             <h3 class="list__title">МАЛО ТУРИСТОВ</h3>
-            <p class="list__text">-№5-</p>
+            <p class="list__number">-№5-</p>
             <p class="list__text">
               Большинство едет в гранд каньон и толпится там
             </p>
@@ -181,11 +182,13 @@
         <a class="contacts__phone" href="tel:+78005558628"> +7 800 555-86-28</a>
       </section>
       <section class="footer__social social">
-        <h2>Наш сервис по подбору жилья в городе Седона в социальных сетях</h2>
+        <h2 class="social__title">
+          Наш сервис по подбору жилья в городе Седона в социальных сетях
+        </h2>
         <ul class="social__list">
           <li class="social__item">
             <a class="social__button" href="#"
-              ><img src="img/twitter.svg" alt=""
+              ><img src="img/twitter-icon.svg" alt=""
             /></a>
           </li>
           <li class="social__item">
@@ -195,7 +198,7 @@
           </li>
           <li class="social__item">
             <a class="social__button" href="#"
-              ><img src="img/youtube.svg" alt=""
+              ><img src="img/youtube-icon.svg" alt=""
             /></a>
           </li>
         </ul>
@@ -205,7 +208,9 @@
           <a
             class="copyright__button"
             href="https://htmlacademy.ru/intensive/htmlcss"
-            ><svg class="button__svg"
+            title="HTML и CSS. Профессиональная вёрстка сайтов"
+            ><svg
+              class="vector"
               width="115"
               height="34"
               fill="none"
@@ -222,11 +227,6 @@
                 </clipPath>
               </defs>
             </svg>
-            <!-- class="copyright__img"
-              src="img/logo-htmlacademy.svg"
-              width="115"
-              height="33"
-              alt="HTML и CSS. Профессиональная вёрстка сайтов" -->
           </a>
         </section>
       </section>
