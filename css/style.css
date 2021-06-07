@@ -262,6 +262,10 @@
   font-size: 12px;
 }
 
+.results__list {
+  list-style: none;
+}
+
 .result__text {
   font-size: 21px;
   font-weight: 700;
