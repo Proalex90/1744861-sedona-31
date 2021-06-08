@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "PTSans-Bold";
+  font-family: "PTSans";
   src: url("../fonts/PTSans-Bold.woff2") format("woff2"),
     url("../fonts/PTSans-Bold.woff") format("woff");
   font-weight: 700;
