@@ -174,6 +174,10 @@
   color: var(--basic-white);
   text-transform: uppercase;
   padding: 30px 125px;
+  border: none;
+  font-size: 21px;
+  line-height: 26px;
+  font-weight: 700;
 }
 
 .reservation__button:focus,
@@ -237,12 +241,12 @@
   background: url(../img/youtube-icon.svg) no-repeat center center;
 }
 
-.social__item:focus,
-.social__item:hover {
+.social__button:focus,
+.social__button:hover {
   background-color: var(--basic-dark-blue);
 }
 
-.social__item:active {
+.social__button:active {
   background-color: var(--basic-very-dark-blue);
 }
 
@@ -435,7 +439,7 @@
 
 .features__separator {
   text-align: center;
-  margin: auto 0;
+  align-self: center;
 }
 
 .dignity__list {
@@ -464,18 +468,17 @@
   text-align: center;
 }
 
-.social__list {
-  display: grid;
-  grid-template-columns: 46px 46px 46px;
-  grid-template-rows: 48px;
-  justify-content: center;
-  gap: 6px;
+.social__button {
+  display: block;
+  width: 46px;
+  height: 48px;
+  background-color: var(--basic-blue);
 }
 
 .social__item {
-  align-self: center;
-  background-color: var(--basic-blue);
-  height: 48px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 4px;
 }
 
 .footer-copyright,
