@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html class="html__background" lang="ru">
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/normalize.css" />
@@ -42,29 +42,33 @@
       <section class="about">
         <h1 class="about__title">Поиск и бронь жилья в городе Седона</h1>
         <p class="about__text">
-          Седона — небольшой городок в Аризоне,заслуживающий большего!
+          Седона — небольшой городок в Аризоне, заслуживающий большего!
+        </p>
+        <p class="about__subtext">
+          Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
         </p>
       </section>
       <section class="features">
         <h2 class="features__main-title">Преимущества</h2>
-        <p class="features__text">
-          Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!
-        </p>
-        <div class="features__container">
-          <h3 class="features__subtitle">НАСТОЯЩИЙ ГОРОДОК</h3>
-          <p class="features__number">-№1-</p>
-          <p class="features__text">
-            Седона — не аттракцион для туристов, там течёт своя жизнь
-          </p>
-          <img
-            class="features__img"
-            src="img/index/advantages-street.jpg"
-            width="800"
-            height="256"
-            alt="Реальная фотография городка Седона"
-          />
+        <div class="features__container container">
+          <div class="features__separator text__background">
+            <h3 class="features__subtitle">НАСТОЯЩИЙ ГОРОДОК</h3>
+            <p class="features__number">-№1-</p>
+            <p class="features__text">
+              Седона — не аттракцион для туристов, там течёт своя жизнь
+            </p>
+          </div>
+          <div class="features__separator img__background">
+            <img
+              class="features__img"
+              src="img/index/advantages-street.jpg"
+              width="800"
+              height="256"
+              alt="Реальная фотография городка Седона"
+            />
+          </div>
         </div>
-        <section class="dignity">
+        <section class="dignity container">
           <h4 class="dignity__title">ДОСТОИНСТВА</h4>
           <ul class="dignity__list">
             <li class="dignity__item dignity__item--home">
@@ -108,13 +112,15 @@
             </li>
           </ul>
         </section>
-        <section class="features">
-          <div class="features__container">
+        <div class="features__container container">
+          <div class="features__separator text__background">
             <h3 class="features__subtitle">ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h3>
             <p class="features__number">-№2-</p>
             <p class="features__text">
               Да, по нему можно пройти! Если конечно вы осмелитесь
             </p>
+          </div>
+          <div class="features__separator img__background">
             <img
               class="features__img"
               src="img/index/advantages-mountain.jpg"
@@ -123,28 +129,30 @@
               alt="Фотография моста дьявола"
             />
           </div>
-        </section>
-        <ul class="features__list list">
-          <li class="list__item">
-            <h3 class="list__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
-            <p class="list__number">-№3-</p>
-            <p class="list__text">
-              Все достопримечательности находятся очень близко
-            </p>
-          </li>
-          <li class="list__item">
-            <h3 class="list__title">КРАСИВАЯ ДОРОГА</h3>
-            <p class="list__number">-№4-</p>
-            <p class="list__text">
-              Ехать в седону из лас-вегаса совсем не скучно!
-            </p>
-          </li>
-          <li class="list__item">
-            <h3 class="list__title">МАЛО ТУРИСТОВ</h3>
-            <p class="list__number">-№5-</p>
-            <p class="list__text">
-              Большинство едет в гранд каньон и толпится там
-            </p>
+        </div>
+        <div class="container">
+          <ul class="features__list list">
+            <li class="list__item">
+              <h3 class="list__title">НЕБОЛЬШАЯ ПЛОЩАДЬ</h3>
+              <p class="list__number">-№3-</p>
+              <p class="list__text">
+                Все достопримечательности находятся очень близко
+              </p>
+            </li>
+            <li class="list__item">
+              <h3 class="list__title">КРАСИВАЯ ДОРОГА</h3>
+              <p class="list__number">-№4-</p>
+              <p class="list__text">
+                Ехать в седону из лас-вегаса совсем не скучно!
+              </p>
+            </li>
+            <li class="list__item">
+              <h3 class="list__title">МАЛО ТУРИСТОВ</h3>
+              <p class="list__number">-№5-</p>
+              <p class="list__text">
+                Большинство едет в гранд каньон и толпится там
+              </p>
+        </div>
           </li>
         </ul>
       </section>
@@ -170,7 +178,7 @@
         />
       </section>
     </main>
-    <footer class="footer">
+    <footer class="footer container">
       <section class="footer__contacts contacts">
         <h2 class="contacts__title">Контакты</h2>
         <p class="contacts__text">#VISITSEDONA</p>
@@ -181,23 +189,18 @@
           Наш сервис по подбору жилья в городе Седона в социальных сетях
         </h2>
         <ul class="social__list">
-          <li class="social__item">
-            <a class="social__button" href="#"
-              ><img src="img/twitter-icon.svg" alt=""
-            /></a>
+          <li class="social__item tw">
+            <a class="social__button" href="#"></a>
           </li>
-          <li class="social__item">
-            <a class="social__button" href="#"
-              ><img src="img/fb-icon.svg" alt=""
-            /></a>
+          <li class="social__item fb ">
+            <a class="social__button" href="#"></a>
           </li>
-          <li class="social__item">
-            <a class="social__button" href="#"
-              ><img src="img/youtube-icon.svg" alt=""
-            /></a>
+          <li class="social__item yt">
+            <a class="social__button" href="#"></a>
           </li>
         </ul>
-        <section class="footer-copyright copyright">
+        </section>
+      <section class="footer-copyright copyright">
           <h2 class="copyright__title">HTMLAcademy</h2>
           <p class="copyright__text">WEBSITE by</p>
           <a
@@ -223,7 +226,7 @@
               </defs>
             </svg>
           </a>
-        </section>
+      </section>
       </section>
     </footer>
   </body>
