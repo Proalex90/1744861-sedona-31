@@ -231,6 +231,10 @@
   line-height: 26px;
 }
 
+.contacts__text {
+  margin-bottom: 9px;
+}
+
 .contacts__phone {
   text-decoration: none;
   color: var(--basic-black);
@@ -473,10 +477,12 @@
   text-align: center;
 }
 
-.footer {
+.footer__wrapper {
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: stretch;
   text-align: center;
+  height: 120px;
+  align-items: center;
 }
 
 .social__button {
@@ -486,14 +492,12 @@
   background-color: var(--basic-blue);
 }
 
-.social__item {
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 4px;
+.social__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.footer-copyright,
-.footer__social,
-.footer__contacts {
-  align-self: flex-end;
+.social__item {
+  margin-right: 6px;
 }
