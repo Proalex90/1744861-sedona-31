@@ -120,45 +120,48 @@
               </ul>
             </fieldset>
             <fieldset class="filter-price">
-              <legend class="filter-price__heading">
-                Стоимость в сутки,<span>&#8381;</span>
-              </legend>
-              <input
-                class="filter-price__textbox"
-                type="text"
-                name="price_from"
-                placeholder="От 0"
-              />
-              <input
-                class="filter-price__textbox"
-                type="text"
-                name="price_to"
-                placeholder="До 3000"
-              />
-              <p class=""><input type="range" /></p>
-              <p class="">
-                <button class="filter-price__btn" type="submit">Показать</button>
-              </p>
+                <legend class="filter-price__heading">
+                  Стоимость в сутки,<span>&#8381;</span>
+                </legend>
+                <input
+                  class="filter-price__textbox"
+                  type="text"
+                  name="price_from"
+                  placeholder="От 0"
+                />
+                <input
+                  class="filter-price__textbox"
+                  type="text"
+                  name="price_to"
+                  placeholder="До 3000"
+                />
+                <p class=""><input type="range" /></p>
+                <p class="">
+                  <button class="filter-price__btn" type="submit">Показать</button>
+                </p>
             </fieldset>
           </form>
         </section>
         <section class="sorting">
-          <h2 class="sorting__title">Результат поиска</h2>
-          <p class="sorting__text result__text">Найдено: 3</p>
-          <p class="sorting__text">Сортировка:</p>
-          <ul class="sorting__list">
-            <li class="sorting__item">
-              <a class="sorting__link sorting__link--selected" href="#"
-                >По цене</a
-              >
-            </li>
-            <li class="sorting__item">
-              <a class="sorting__link" href="#">По типу</a>
-            </li>
-            <li class="sorting__item">
-              <a class="sorting__link" href="#">По рейтингу</a>
-            </li>
-          </ul>
+         
+            <h2 class="sorting__title">Результат поиска</h2>
+            <div class="sorting__container">
+            <p class="sorting__text result__text">Найдено: 3</p>
+            <p class="sorting__text">Сортировка:</p>
+            <ul class="sorting__list">
+              <li class="sorting__item">
+                <a class="sorting__link sorting__link--selected" href="#"
+                  >По цене</a
+                >
+              </li>
+              <li class="sorting__item">
+                <a class="sorting__link" href="#">По типу</a>
+              </li>
+              <li class="sorting__item">
+                <a class="sorting__link" href="#">По рейтингу</a>
+              </li>
+            </ul>
+          </div>
           <section class="search-results results">
             <h3 class="results__title">Список гостиниц</h3>
             <ul class="results__list">
