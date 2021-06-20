@@ -72,16 +72,15 @@
   overflow: hidden;
 }
 
-
-.header{
+.header {
   position: relative;
 }
 
-.header__logo{
+.header__logo {
   position: absolute;
   left: 50%;
   top: 0;
-  margin-left: -69px;
+  transform: translateX(-50%);
   z-index: 1;
 }
 
@@ -110,17 +109,16 @@
   opacity: 0.3;
 }
 
-.header__img{
+.header__img {
   background-image: url(../img/index/header-img.jpg);
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 100%;
   min-height: 509px;
-  position:relative;
-
+  position: relative;
 }
 
-.header__img::after{
+.header__img::after {
   content: "";
   position: absolute;
   background: url(../img/index/envelope.svg) no-repeat;
@@ -145,7 +143,7 @@
   margin: 41.5px auto 16.5px;
 }
 
-.about__subtext{
+.about__subtext {
   margin-bottom: 51px;
   line-height: 26px;
 }
@@ -179,7 +177,7 @@
   font-weight: 700;
 }
 
-.features__text{
+.features__text {
   width: 302px;
   margin: 23px auto 54px;
 }
@@ -219,7 +217,6 @@
 }
 
 .list__item {
- 
 }
 
 .list__text {
@@ -249,7 +246,6 @@
   width: 436px;
   line-height: 24px;
   margin: 40px auto 50px;
-  
 }
 
 .reservation__button {
@@ -521,7 +517,7 @@
   grid-template-columns: 1fr 800px;
 }
 
-.features__container--revers{
+.features__container--revers {
   grid-template-columns: 800px 1fr;
   color: var(--basic-white);
   background-color: var(--basic-blue);
@@ -543,15 +539,15 @@
   text-align: center;
 }
 
-.icon__home{
+.icon__home {
   margin: 60px auto 28px;
 }
 
-.icon__food{
-margin: 61px auto 29px;
+.icon__food {
+  margin: 61px auto 29px;
 }
 
-.icon__gift{
+.icon__gift {
   margin: 56px auto 28px;
 }
 
@@ -599,27 +595,26 @@ margin: 61px auto 29px;
   display: flex;
 }
 
-.filter__form fieldset:last-child{
+.filter__form fieldset:last-child {
   margin-left: auto;
-  
 }
 
-.nav__list{
+.nav__list {
   display: flex;
   flex-wrap: wrap;
   padding: 15px 72px;
 }
 
-.nav__item{
-margin-right: 134px;
+.nav__item {
+  width: 25%;
 }
 
 .nav__item:nth-child(3),
-.nav__item:nth-child(7){
-  margin-left: 297px;
+.nav__item:nth-child(4) {
+  text-align: right;
 }
 
-.nav__item:nth-child(4),
-.nav__item:nth-child(8){
-  margin-right: 0;
+.nav__item:nth-child(7),
+.nav__item:nth-child(8) {
+  text-align: right;
 }
