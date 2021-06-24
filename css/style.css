@@ -516,7 +516,7 @@
 
 .range-controls__toggle {
   position: absolute;
-  top: 10px;
+  top: 12px;
   left: 0;
   box-sizing: content-box;
   width: 4px;
@@ -539,6 +539,7 @@
 .range-controls__toggle:focus,
 .range-controls__toggle:hover {
   border: 10px solid var(--basic-white);
+  top: 10px;
 }
 
 .range-controls__scale {
@@ -653,6 +654,7 @@
   text-transform: uppercase;
   border: none;
   margin-top: 15.5px;
+  cursor: pointer;
 }
 
 .text__type-of-housing {
@@ -816,6 +818,7 @@
 
 .results__text {
   display: inline-block;
+  cursor: default;
 }
 
 .results__container {
