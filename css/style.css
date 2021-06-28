@@ -459,7 +459,6 @@
 .lodging__item:last-child {
   margin-bottom: 0;
 }
-
 .filter__check-box {
   position: absolute;
   width: 27px;
@@ -476,12 +475,14 @@
 
 .checkbox:focus ~ .infrastructure__label,
 .checkbox:focus ~ .lodging__label {
-  border: 2px solid var(--basic-black);
+  border: 2px solid var(--basic-white);
   border-radius: 5px;
   padding: 3px;
+  margin: -5px;
 }
 
-.checkbox:checked + .filter__check-box {
+.checkbox:checked + .infrastructure__label .filter__check-box,
+.checkbox:checked + .lodging__label .filter__check-box {
   background: url(../img/catalog/checkbox-on.svg) no-repeat;
 }
 
