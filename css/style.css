@@ -474,8 +474,11 @@
   appearance: none;
 }
 
-.infrastructure__label:focus {
-  outline: 2px solid var(--basic-black);
+.checkbox:focus ~ .infrastructure__label,
+.checkbox:focus ~ .lodging__label {
+  border: 2px solid var(--basic-black);
+  border-radius: 5px;
+  padding: 3px;
 }
 
 .checkbox:checked + .filter__check-box {
@@ -587,7 +590,7 @@
   color: var(--basic-white);
   text-align: center;
   width: 136px;
-  height: 36px;
+  min-height: 36px;
   margin: 14px auto 0;
   cursor: pointer;
   padding: 5px;
@@ -686,6 +689,7 @@
   cursor: pointer;
 
   padding: 5px 10px;
+  min-height: 27px;
 }
 
 .text__type-of-housing {
@@ -694,7 +698,6 @@
 
 .btn__detail {
   width: 110px;
-  height: 27px;
   background-color: var(--basic-blue);
   margin-right: 3px;
 }
@@ -710,7 +713,6 @@
 
 .btn__reservation {
   width: 142px;
-  height: 27px;
   background-color: var(--basic-brown);
 }
 
@@ -951,7 +953,6 @@
   width: 20px;
   height: 17px;
   cursor: pointer;
-  font-size: inherit;
 }
 
 .rating__star:checked,
@@ -983,31 +984,6 @@
 .rating__star:nth-of-type(5) {
   width: 100px;
   z-index: 1;
-}
-
-.rating-star--five {
-  width: 100px;
-  height: 17px;
-}
-
-.rating-star--four {
-  width: 80px;
-  height: 17px;
-}
-
-.rating-star--three {
-  width: 60px;
-  height: 17px;
-}
-
-.rating-star--two {
-  width: 40px;
-  height: 17px;
-}
-
-.rating-star--one {
-  width: 20px;
-  height: 17px;
 }
 
 .reservation__modal {
