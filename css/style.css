@@ -1046,6 +1046,7 @@
 .calendar__button {
   position: absolute;
   right: 0;
+  top: 0;
   width: 23px;
   border: none;
   padding: 8px;
@@ -1069,6 +1070,7 @@
 
 .item__date {
   width: 100%;
+  position: relative;
 }
 
 .modal__item:last-child {
@@ -1116,6 +1118,16 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.item__adults {
+  display: flex;
+  align-items: center;
+}
+
+.item__child {
+  display: flex;
+  align-items: center;
 }
 
 .modal__button {
