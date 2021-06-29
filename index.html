@@ -75,22 +75,19 @@
           <section class="dignity container">
             <h4 class="dignity__title visually-hidden">ДОСТОИНСТВА</h4>
             <ul class="dignity__list">
-              <li class="dignity__item">
-                <div class="icon__home"></div>
+              <li class="dignity__item dignity__item--icon-home">
                 <h5 class="dignity__subtitle">ЖИЛЬЁ</h5>
                 <p class="dignity__text">
                   Рекомендуем пожить в настоящем мотеле, всё как в кино!
                 </p>
               </li>
-              <li class="dignity__item">
-                <div class="icon__food"></div>
+              <li class="dignity__item dignity__item--icon-food">
                 <h5 class="dignity__subtitle">ЕДА</h5>
                 <p class="dignity__text">
                   Всегда заказывайте фирменный бургер, вы не разочаруетесь!
                 </p>
               </li>
-              <li class="dignity__item">
-                <div class="icon__gift"></div>
+              <li class="dignity__item dignity__item--icon-gift">
                 <h5 class="dignity__subtitle">СУВЕНИРЫ</h5>
                 <p class="dignity__text">
                   Не только китайского, но и местного производства!
@@ -322,13 +319,14 @@
         </section>
         <section class="map">
           <h2 class="map__title visually-hidden">Карта Седона</h2>
-          <img
-            class="map__img"
-            src="img/index/map.jpg"
-            width="1200"
-            height="594"
-            alt="Карта расположения города Седона"
-          />
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d839664.8704884913!2d-111.98218988625416!3d34.7066705511674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872da132f942b00d%3A0x5548c523fa6c8efd!2z0KHQtdC00L7QvdCwLCDQkNGA0LjQt9C-0L3QsCA4NjMzNiwg0KHQqNCQ!5e0!3m2!1sru!2sru!4v1624982976326!5m2!1sru!2sru"
+            width="100%"
+            height="588"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </section>
       </main>
       <footer class="footer">
@@ -427,5 +425,6 @@
         </div>
       </footer>
     </div>
+    <script src="/js/modal.js"></script>
   </body>
 </html>
