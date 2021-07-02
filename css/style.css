@@ -175,7 +175,7 @@
 }
 
 .features__subtitle {
-  width: 150px;
+  width: 151px;
 
   margin: 0 auto 26px;
 
@@ -277,6 +277,7 @@
   line-height: 26px;
   font-weight: 700;
   padding: 10px;
+  cursor: pointer;
 }
 
 .reservation__button:focus,
@@ -1151,6 +1152,7 @@
   border: none;
   margin-top: 39px;
   padding: 10px;
+  cursor: pointer;
 }
 
 .modal__button:hover,
