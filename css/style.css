@@ -120,27 +120,25 @@
   opacity: 0.3;
 }
 
-.about__img {
-  background-image: url(../img/index/about-img.jpg);
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 509px;
-  position: relative;
-}
-
-.about__img::after {
+.about::before {
   content: "";
   position: absolute;
   background: url(../img/index/envelope.svg) no-repeat;
   width: 100%;
   height: 56px;
   left: 0;
-  bottom: 0;
+  top: 453px;
 }
 
 .about {
   text-align: center;
+  padding-top: 551px;
   padding-bottom: 51px;
+  background-image: url(../img/index/about-img.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 509px;
+  position: relative;
 }
 
 .about__text {
@@ -151,11 +149,12 @@
   font-size: 21px;
   font-weight: 700;
   text-align: center;
-  margin: 41.5px auto 16.5px;
+  margin: 0 auto;
 }
 
 .about__subtext {
   line-height: 26px;
+  padding-top: 15px;
 }
 
 .features__container {
@@ -168,7 +167,7 @@
 }
 
 .features__separator--text {
-  padding: 49px 0 52px;
+  padding: 46px 0 52px;
 }
 
 .features__separator--img {
@@ -208,7 +207,6 @@
   font-size: 21px;
   font-weight: 700;
   line-height: 21px;
-  margin-top: 100px;
 }
 
 .dignity__text {
@@ -265,7 +263,7 @@
 .reservation__text {
   width: 436px;
   line-height: 24px;
-  margin: 34px auto 44px;
+  margin: 34px auto 42px;
 }
 
 .reservation__button {
@@ -309,7 +307,7 @@
   font-weight: 700;
   line-height: 26px;
   text-align: center;
-  padding-bottom: 18px;
+  padding-bottom: 13px;
 }
 
 .contacts__text {
@@ -322,6 +320,7 @@
 }
 
 .social__list {
+  padding-top: 5px;
   list-style: none;
   margin-left: 6px;
 }
@@ -330,10 +329,6 @@
   margin-right: 6px;
   margin-bottom: 6px;
 }
-
-/* .social__item:last-child {
-  margin-right: 0;
-} */
 
 .social__button:focus,
 .social__button:hover {
@@ -550,11 +545,11 @@
   cursor: pointer;
 }
 
-.toggle-min {
+.range-controls__toggle--min {
   left: 0;
 }
 
-.toggle-max {
+.range-controls__toggle--max {
   left: 80%;
 }
 
@@ -730,7 +725,7 @@
   text-align: center;
   color: var(--basic-raiting-text);
   margin-top: 46px;
-  padding-top: 5px;
+  padding-top: 4px;
 }
 
 .features {
@@ -772,6 +767,7 @@
 
 .dignity__item {
   text-align: center;
+  padding-top: 100px;
 }
 
 .dignity__item--icon-home {
@@ -831,7 +827,7 @@
 
 .results__item {
   display: flex;
-  padding: 25px 73px 30px;
+  padding: 23px 73px 30px;
 }
 
 .results__item:first-child {
@@ -855,6 +851,7 @@
 
 .results__container-rating {
   margin-left: auto;
+  padding-top: 2px;
 }
 
 .filter__form fieldset:last-child {
@@ -1152,7 +1149,7 @@
   line-height: 26px;
   font-weight: 700;
   border: none;
-  margin-top: 38px;
+  margin-top: 39px;
   padding: 10px;
 }
 
