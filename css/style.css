@@ -848,6 +848,7 @@
 .results__text {
   display: inline-block;
   cursor: default;
+  vertical-align: top;
 }
 
 .results__container-rating {
@@ -1091,16 +1092,16 @@
   margin-left: auto;
 }
 
-.button-namber__minus {
+.button-number__minus {
   margin-left: 40px;
   padding-bottom: 7px;
 }
 
-.modal__item:last-child .button-namber__minus {
+.modal__item:last-child .button-number__minus {
   margin-left: 30px;
 }
 
-.label__button-namber {
+.label__button-number {
   width: 35px;
   height: 38px;
   background-color: var(--basic-grey);
@@ -1109,21 +1110,21 @@
   cursor: pointer;
 }
 
-.label__button-namber:hover path,
-.label__button-namber:focus path {
+.label__button-number:hover path,
+.label__button-number:focus path {
   fill: var(--basic-black);
 }
 
-.label__button-namber:active path {
+.label__button-number:active path {
   fill: var(--basic-blue);
 }
 
-.label__button-namber:hover rect,
-.label__button-namber:focus rect {
+.label__button-number:hover rect,
+.label__button-number:focus rect {
   fill: var(--basic-black);
 }
 
-.label__button-namber:active rect {
+.label__button-number:active rect {
   fill: var(--basic-blue);
 }
 
