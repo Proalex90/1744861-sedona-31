@@ -965,18 +965,22 @@
   width: 20px;
   z-index: 5;
 }
+
 .rating__star:nth-of-type(2) {
   width: 40px;
   z-index: 4;
 }
+
 .rating__star:nth-of-type(3) {
   width: 60px;
   z-index: 3;
 }
+
 .rating__star:nth-of-type(4) {
   width: 80px;
   z-index: 2;
 }
+
 .rating__star:nth-of-type(5) {
   width: 100px;
   z-index: 1;
